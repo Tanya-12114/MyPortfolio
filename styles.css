@@ -250,6 +250,7 @@ nav .wrap {
     font-size: 0.97rem;
     line-height: 1.85;
     font-weight: 300;
+    text-align: justify;
 }
 
 .about-text p strong {
@@ -437,6 +438,7 @@ nav .wrap {
     margin-bottom: 22px;
     line-height: 1.75;
     font-weight: 300;
+    text-align: justify;
 }
 
 .project-links {
