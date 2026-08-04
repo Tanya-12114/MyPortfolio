@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -18,9 +20,11 @@
             <a class="logo" href="#">Portfolio<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#volunteering">Volunteering</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -78,40 +82,80 @@
         </div>
     </section>
 
+    <section class="section" id="experience">
+        <div class="wrap">
+            <p class="section-label">Experience</p>
+            <h2 class="section-title">Where I've worked</h2>
+            <div class="exp-card">
+                <div class="exp-top">
+                    <div>
+                        <h3>AI Full Stack Developer</h3>
+                        <p class="exp-company">The AI Signal · Internship</p>
+                    </div>
+                    <span class="exp-date">Jul 2026 - Present</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Built a full-stack AI tools directory using Next.js, Hono, PostgreSQL, and Prisma on Cloudflare
+                        Workers.</li>
+                    <li>Developed REST APIs and integrated PostgreSQL using Prisma ORM.</li>
+                    <li>Implemented live search with autocomplete and category suggestions.</li>
+                    <li>Built filterable, sortable tables with pagination and infinite scrolling.</li>
+                    <li>Collaborated using Git/GitHub while following modern software development practices.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="section" id="skills">
         <div class="wrap">
             <p class="section-label">Skills</p>
             <h2 class="section-title">Tools I work with</h2>
             <div class="skills-row">
                 <div class="skill-col">
-                    <h3>Frontend</h3>
+                    <h3>Languages</h3>
                     <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Tailwind CSS, Bootstrap</li>
-                        <li>React</li>
-                        <li>Responsive Design</li>
-                        <li>UI fundamentals</li>
+                        <li><i class="devicon-c-plain colored"></i>C</li>
+                        <li><i class="devicon-cplusplus-plain colored"></i>C++</li>
+                        <li><i class="devicon-javascript-plain colored"></i>JavaScript</li>
+                        <li><i class="devicon-typescript-plain colored"></i>TypeScript</li>
+                        <li><i class="devicon-python-plain colored"></i>Python</li>
                     </ul>
                 </div>
                 <div class="skill-col">
-                    <h3>Backend</h3>
+                    <h3>Frontend</h3>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>REST APIs</li>
-                        <li>SQL databases</li>
-                        <li>MongoDB</li>
+                        <li><i class="devicon-html5-plain colored"></i>HTML5</li>
+                        <li><i class="devicon-css3-plain colored"></i>CSS3</li>
+                        <li><i class="devicon-tailwindcss-plain colored"></i>Tailwind CSS</li>
+                        <li><i class="devicon-bootstrap-plain colored"></i>Bootstrap</li>
+                        <li><i class="devicon-react-original colored"></i>React</li>
+                        <li><i class="devicon-nextjs-original skill-invert"></i>Next.js</li>
+                    </ul>
+                </div>
+                <div class="skill-col">
+                    <h3>Backend / Databases</h3>
+                    <ul>
+                        <li><i class="devicon-nodejs-plain colored"></i>Node.js</li>
+                        <li><i class="devicon-express-original skill-invert"></i>Express.js</li>
+                        <li><i class="fa-solid fa-plug skill-fa"></i>REST APIs</li>
+                        <li><i class="devicon-mysql-plain colored"></i>MySQL</li>
+                        <li><i class="devicon-postgresql-plain colored"></i>PostgreSQL</li>
+                        <li><i class="devicon-mongodb-plain colored"></i>MongoDB</li>
                     </ul>
                 </div>
                 <div class="skill-col">
                     <h3>Tools</h3>
                     <ul>
-                        <li>Git & GitHub</li>
-                        <li>VS Code</li>
-                        <li>Figma</li>
-                        <li>Linux basics</li>
+                        <li><i class="devicon-git-plain colored"></i>Git</li>
+                        <li><i class="devicon-github-original skill-invert"></i>GitHub</li>
+                        <li><i class="devicon-vscode-plain colored"></i>VS Code</li>
                     </ul>
                 </div>
+            </div>
+            <div class="concepts-row">
+                <span class="concept-tag">Data Structures & Algorithms</span>
+                <span class="concept-tag">OOPs</span>
+                <span class="concept-tag">DBMS</span>
             </div>
         </div>
     </section>
@@ -127,7 +171,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">IBM (Coursera)</p>
-                    <a class="cert-link" href="certificates/introduction to AI.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/introduction to AI.pdf" target="_blank" rel="noopener">View
+                        Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -135,7 +180,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">Simplilearn</p>
-                    <a class="cert-link" href="certificates/ml-using-python.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/ml-using-python.pdf" target="_blank" rel="noopener">View
+                        Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -143,7 +189,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">Infosys Springboard</p>
-                    <a class="cert-link" href="certificates/data science certificate.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/data science certificate.pdf" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -151,7 +198,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">NPTEL Online Certification</p>
-                    <a class="cert-link" href="certificates/nptel certificate.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/nptel certificate.pdf" target="_blank" rel="noopener">View
+                        Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -159,7 +207,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">IBM SkillsBuild</p>
-                    <a class="cert-link" href="certificates/Completion Certificate _ SkillsBuild.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/Completion Certificate _ SkillsBuild.pdf" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -167,7 +216,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">C-DAC, NOIDA</p>
-                    <a class="cert-link" href="certificates/cdac bootcamp certificate.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/cdac bootcamp certificate.pdf" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -175,7 +225,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">AlgoUniversity</p>
-                    <a class="cert-link" href="certificates/graph theory algouniversity.jpeg" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/graph theory algouniversity.jpeg" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
                 <div class="cert-card">
                     <div class="cert-top">
@@ -183,7 +234,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">HackerRank</p>
-                    <a class="cert-link" href="certificates/python_basic certificate.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/python_basic certificate.pdf" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
 
                 <div class="cert-card">
@@ -192,7 +244,8 @@
                         <span class="cert-icon">🎓</span>
                     </div>
                     <p class="cert-issuer">HackerRank</p>
-                    <a class="cert-link" href="certificates/java_basic certificate.pdf" target="_blank" rel="noopener">View Certificate <span class="arr">↗</span></a>
+                    <a class="cert-link" href="certificates/java_basic certificate.pdf" target="_blank"
+                        rel="noopener">View Certificate <span class="arr">↗</span></a>
                 </div>
             </div>
         </div>
@@ -335,14 +388,57 @@
         </div>
     </section>
 
+    <section class="section" id="volunteering">
+        <div class="wrap">
+            <p class="section-label">Volunteering</p>
+            <h2 class="section-title">Giving back</h2>
+            <div class="exp-card">
+                <div class="exp-top">
+                    <div>
+                        <h3>Volunteer</h3>
+                        <p class="exp-company">Hamari Pahchan · Project Drishti</p>
+                        <a class="cert-link" href="certificates/Hamari Pahchan Certificate.pdf" target="_blank" rel="noopener">View
+                            Certificate ↗</a>
+                    </div>
+                    <span class="exp-date">Jul 2025 - Aug 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact-section" id="contact">
         <div class="wrap">
+            <p class="section-label" style="text-align:center;">Get in touch</p>
+            <h2 class="contact-heading">Contact for Queries</h2>
+            <p class="contact-sub">Have a question, project idea, or want to connect? Fill out the form and I'll get
+                back to you as soon as possible!</p>
+
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>tanyasharma12gzb@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Delhi-NCR, India</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="contact-box">
-                <div>
-                    <h2>Want to work<br><span>together?</span></h2>
-                    <p>I'm open to internships, collaborations, or just a conversation about something you're building.
-                        I reply pretty quickly.</p>
-                    <a href="mailto:tanyasharma12gzb@gmail.com" class="email-link">tanyasharma12gzb@gmail.com</a>
+                <div class="connect-form">
+                    <h4>Let's Connect</h4>
+                    <form onsubmit="return false;">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
                 </div>
                 <div class="social-col">
                     <h4>Find me on</h4>
@@ -352,6 +448,7 @@
                         <li><a href="https://www.linkedin.com/in/tanya-sharma-a63b71346" target="_blank">LinkedIn <span
                                     class="arr">↗</span></a></li>
                     </ul>
+                    <a href="mailto:tanyasharma12gzb@gmail.com" class="email-link">tanyasharma12gzb@gmail.com</a>
                 </div>
             </div>
         </div>
