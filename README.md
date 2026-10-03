@@ -16,8 +16,7 @@ This portfolio is built using:
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
-- [Bootstrap 5](https://getbootstrap.com/) (for responsive design & layout)
+- **Vanilla JavaScript** (mobile menu, project filter, contact form, scroll effects)
 - GitHub Pages (for free hosting)
 
 ## Live Website
@@ -29,3 +28,9 @@ Click below to view the site:
 ## About This Repository
 
 This repo contains the full source code for my portfolio site. It is automatically deployed from the `main` branch using GitHub Pages.
+
+## Setup notes
+- `Tanya_Sharma_Resume.pdf` - drop your resume in the root; the Resume buttons appear automatically.
+- `profile.jpg` - add a square photo; it replaces the "TS" monogram automatically.
+- `certificates/` - keep your certificate PDFs here (links depend on exact filenames).
+- Contact form - add a Web3Forms key or Formspree URL at the top of `script.js` to receive messages directly. Without one, it opens the visitor's email app.
